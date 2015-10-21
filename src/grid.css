@@ -1,0 +1,76 @@
+/**
+simple-gird
+v0.1
+by zindex
+**/
+
+.sg-row {
+    width: 100%;
+    display: block;
+    font-size: 0;
+}
+
+.sg-col-1 {
+    width: 8.33333333%;
+}
+
+.sg-col-2 {
+    width: 16.66666667%;
+}
+
+.sg-col-3 {
+    width: 25%;
+}
+
+.sg-col-4 {
+    width: 33.33333333%;
+}
+
+.sg-col-5 {
+    width: 41.66666667%;
+}
+
+.sg-col-6 {
+    width: 50%;
+}
+
+.sg-col-7 {
+	width: 58.33333333%;
+}
+
+.sg-col-8 {
+	width: 66.66666667%;
+}
+
+.sg-col-9 {
+	width: 75%;
+}
+
+.sg-col-10 {
+	width: 83.33333333%;
+}
+
+.sg-col-11 {
+	width: 91.66666667%;
+}
+
+.sg-col-12 {
+    width: 100%;
+}
+
+.sg-col-1,
+.sg-col-2,
+.sg-col-3,
+.sg-col-4,
+.sg-col-5,
+.sg-col-6,
+.sg-col-7,
+.sg-col-8,
+.sg-col-9,
+.sg-col-10,
+.sg-col-11,
+.sg-col-12 {
+    display: inline-block;
+    height: auto;
+    font-size: 1rem;
+}

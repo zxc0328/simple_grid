@@ -1,11 +1,27 @@
-## simple_grid
-A simple CSS gird library
-
-###Demo
-![demo](http://7oxh2b.com1.z0.glb.clouddn.com/Screen%20Shot%202015-10-21%20at%202.19.12%20PM.png)
-
-````
-<div class="sg-row margin_top">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple-grid-test</title>
+	<link rel="stylesheet" type="text/css" href="../src/grid.css">
+	<style type="text/css">
+	html,body{
+		margin: 0;
+		padding: 0;
+	}
+	.col{
+		background-color: rgba(86, 61, 124, .15);
+		box-sizing:border-box;
+		border: 1px solid grey; 
+		text-align: center;
+		line-height: 60px;
+	}
+	.margin_top{
+		margin-top: 20px;
+	}
+	</style>
+</head>
+<body>
+	<div class="sg-row margin_top">
 		<div class="sg-col-6 col">
 			I am a col
 		</div>
@@ -64,4 +80,5 @@ A simple CSS gird library
 			I am a col
 		</div>
 	</div>
-````
+</body>
+</html>
